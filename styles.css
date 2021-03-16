@@ -18,3 +18,12 @@
 
 .hero-section.section-purple:hover {
     border-color: #fff;}
+
+    .grid-3 {
+        margin-right: 20px;
+        margin-left: 20px;
+        grid-column-gap: 30px;
+        grid-row-gap: 40px;
+        -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
